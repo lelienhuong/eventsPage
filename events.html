@@ -12,23 +12,22 @@
     <div id="app">
 
         <!-- nav -->
-        <div>
-            <img style="position: relative;" src="./image/info.jpg" width="100%" height="650px" alt="">
-            <div style="position: absolute; top: 250px; left: 200px; font-size: 90px; color: whitesmoke; font-weight: 600; font-family: sans-serif;">
-                <div>OUR</div>
-                <div style="margin-top: 65px;"> EVENTS</div>
+        <div
+            style="height: calc(100vh - 50px); background-image: url(./image/info.jpg); background-position: center; background-size: cover; position: relative;">
+            <div class="font-title">
+                <div>OUR EVENTS</div>
             </div>
         </div>
         <!-- ket thuc nav -->
 
-        <!-- bat dau search box -->
+        <!-- bat dau box-search -->
         <div class="box-search">
             <div class="box-search-components" style="width:25%">
                 <div>
                     Looking for
                 </div>
-                <div class="select-box">
-                    <select name="events" id="events">
+                <div>
+                    <select class="select-box" name="events" id="events">
                         <option value="infoss">Info Session</option>
                         <option value="android">Android Study Jams</option>
                         <option value="google">Google</option>
@@ -40,8 +39,8 @@
                 <div>
                     When
                 </div>
-                <div class="select-box">
-                    <select name="date" id="date">
+                <div>
+                    <select class="select-box" name="date" id="date">
                         <option value="15-11-2020">15 - 11 - 2020</option>
                         <option value="16-11-2020">16 - 11 - 2020</option>
                         <option value="17-11-2020">17 - 11 - 2020</option>
@@ -49,12 +48,12 @@
                     </select>
                 </div>
             </div>
-            <div id="search-location" style="width:33%">
+            <div id="search-location">
                 <div>
                     Where
                 </div>
-                <div class="select-box">
-                    <select name="location" id="location">
+                <div>
+                    <select class="select-box" name="location" id="location">
                         <option value="DUT">DaNang University of Science and Technology</option>
                         <option value="Velo">Velo Coffee</option>
                     </select>
@@ -66,186 +65,182 @@
         </div>
         <!-- Ketthuc search-box -->
 
-        <div style="margin: 100px 228px; font-size: 35px; font-weight: bold; margin-bottom: 70px;">
-            <div style="float: left; margin-top: 15px;">
-                Upcoming Events
+        <div class="width-content">
+            <div class="font-Upcoming">
+                <div>
+                    Upcoming Events
+                </div>
+                <div class="select-category">
+                    <select name="categories" id="categories">
+                        <option value="">Categories</option>
+                        <option value="workshop">Workshop</option>
+                    </select>
+                </div>
             </div>
-            <div class="select-category">
-                <select name="categories" id="categories">
-                    <option value="">Categories</option>
-                    <option value="workshop">Workshop</option>
-                </select>
+            <div class="container">
+                <!-- Component event -->
+                <div class="event">
+                    <div class="bg-event">
+                        <div class="category-tag">
+                            Machine Learning
+                        </div>
+                    </div>
+                    <div
+                        style="padding: 15px 15px; background-color: white; border-radius: 10px; border-top-right-radius: 0; border-top-left-radius: 0;">
+                        <div style="font-size: 15px; font-weight: bold;">
+                            Workshop
+                        </div>
+                        <div style="margin-top: 15px;">
+                            <div style="color:#8B8F93;">08 Nov, 2020 | 08:30AM - 11:00AM</div>
+                            <div style="color: red; font-weight: bold;">Category</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ket thuc -->
+                <div class="event">
+                    <div class="bg-event">
+                        <div class="category-tag" style="background-color: red;">
+                            Machine Learning
+                        </div>
+                    </div>
+                    <div
+                        style="padding: 15px 15px; background-color: white; border-radius: 10px; border-top-right-radius: 0; border-top-left-radius: 0;">
+                        <div style="font-size: 15px; font-weight: bold;">
+                            Workshop
+                        </div>
+                        <div style="margin-top: 15px;">
+                            <div style="color:#8B8F93;">08 Nov, 2020 | 08:30AM - 11:00AM</div>
+                            <div style="color: red;font-weight: bold;">Category</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="bg-event">
+                        <div class="category-tag" style="background-color: green;">
+                            Machine Learning
+                        </div>
+                    </div>
+                    <div
+                        style="padding: 15px 15px; background-color: white; border-radius: 10px; border-top-right-radius: 0; border-top-left-radius: 0;">
+                        <div style="font-size: 15px; font-weight: bold;">
+                            Workshop
+                        </div>
+                        <div style="margin-top: 15px;">
+                            <div style="color:#8B8F93;">08 Nov, 2020 | 08:30AM - 11:00AM</div>
+                            <div style="color: red;font-weight: bold;">Category</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="bg-event">
+                        <div class="category-tag">
+                            Machine Learning
+                        </div>
+                    </div>
+                    <div
+                        style="padding: 15px 15px; background-color: white; border-radius: 10px; border-top-right-radius: 0; border-top-left-radius: 0;">
+                        <div style="font-size: 15px; font-weight: bold;">
+                            Workshop
+                        </div>
+                        <div style="margin-top: 15px;">
+                            <div style="color:#8B8F93;">08 Nov, 2020 | 08:30AM - 11:00AM</div>
+                            <div style="color: red; font-weight: bold;">Category</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ket thuc -->
+                <div class="event">
+                    <div class="bg-event">
+                        <div class="category-tag" style="background-color: red;">
+                            Machine Learning
+                        </div>
+                    </div>
+                    <div
+                        style="padding: 15px 15px; background-color: white; border-radius: 10px; border-top-right-radius: 0; border-top-left-radius: 0;">
+                        <div style="font-size: 15px; font-weight: bold;">
+                            Workshop
+                        </div>
+                        <div style="margin-top: 15px;">
+                            <div style="color:#8B8F93;">08 Nov, 2020 | 08:30AM - 11:00AM</div>
+                            <div style="color: red;font-weight: bold;">Category</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="bg-event">
+                        <div class="category-tag" style="background-color: green;">
+                            Machine Learning
+                        </div>
+                    </div>
+                    <div
+                        style="padding: 15px 15px; background-color: white; border-radius: 10px; border-top-right-radius: 0; border-top-left-radius: 0;">
+                        <div style="font-size: 15px; font-weight: bold;">
+                            Workshop
+                        </div>
+                        <div style="margin-top: 15px;">
+                            <div style="color:#8B8F93;">08 Nov, 2020 | 08:30AM - 11:00AM</div>
+                            <div style="color: red;font-weight: bold;">Category</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="bg-event">
+                        <div class="category-tag">
+                            Machine Learning
+                        </div>
+                    </div>
+                    <div
+                        style="padding: 15px 15px; background-color: white; border-radius: 10px; border-top-right-radius: 0; border-top-left-radius: 0;">
+                        <div style="font-size: 15px; font-weight: bold;">
+                            Workshop
+                        </div>
+                        <div style="margin-top: 15px;">
+                            <div style="color:#8B8F93;">08 Nov, 2020 | 08:30AM - 11:00AM</div>
+                            <div style="color: red; font-weight: bold;">Category</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ket thuc -->
+                <div class="event">
+                    <div class="bg-event">
+                        <div class="category-tag" style="background-color: red;">
+                            Machine Learning
+                        </div>
+                    </div>
+                    <div
+                        style="padding: 15px 15px; background-color: white; border-radius: 10px; border-top-right-radius: 0; border-top-left-radius: 0;">
+                        <div style="font-size: 15px; font-weight: bold;">
+                            Workshop
+                        </div>
+                        <div style="margin-top: 15px;">
+                            <div style="color:#8B8F93;">08 Nov, 2020 | 08:30AM - 11:00AM</div>
+                            <div style="color: red;font-weight: bold;">Category</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="bg-event">
+                        <div class="category-tag" style="background-color: green;">
+                            Machine Learning
+                        </div>
+                    </div>
+                    <div
+                        style="padding: 15px 15px; background-color: white; border-radius: 10px; border-top-right-radius: 0; border-top-left-radius: 0;">
+                        <div style="font-size: 15px; font-weight: bold;">
+                            Workshop
+                        </div>
+                        <div style="margin-top: 15px;">
+                            <div style="color:#8B8F93;">08 Nov, 2020 | 08:30AM - 11:00AM</div>
+                            <div style="color: red;font-weight: bold;">Category</div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <button class="btn-load">Load more</button>
         </div>
 
         <!-- bat dau events -->
-        <div class="container">
-            <!-- Component event -->
-            <div class="event">
-                <div class="bg-event">
-                    <div class="category-tag">
-                        Machine Learning
-                    </div>
-                </div>
-                <div
-                    style="padding: 15px 15px; background-color: white; border-radius: 10px; border-top-right-radius: 0; border-top-left-radius: 0;">
-                    <div style="font-size: 15px; font-weight: bold;">
-                        Workshop
-                    </div>
-                    <div style="margin-top: 15px;">
-                        <div style="color:#8B8F93;">08 Nov, 2020 | 08:30AM - 11:00AM</div>
-                        <div style="color: red; font-weight: bold;">Category</div>
-                    </div>
-                </div>
-            </div>
-            <!-- ket thuc -->
-            <div class="event">
-                <div class="bg-event">
-                    <div class="category-tag" style="background-color: red;">
-                        Machine Learning
-                    </div>
-                </div>
-                <div
-                    style="padding: 15px 15px; background-color: white; border-radius: 10px; border-top-right-radius: 0; border-top-left-radius: 0;">
-                    <div style="font-size: 15px; font-weight: bold;">
-                        Workshop
-                    </div>
-                    <div style="margin-top: 15px;">
-                        <div style="color:#8B8F93;">08 Nov, 2020 | 08:30AM - 11:00AM</div>
-                        <div style="color: red;font-weight: bold;">Category</div>
-                    </div>
-                </div>
-            </div>
-            <div class="event">
-                <div class="bg-event">
-                    <div class="category-tag" style="background-color: green;">
-                        Machine Learning
-                    </div>
-                </div>
-                <div
-                    style="padding: 15px 15px; background-color: white; border-radius: 10px; border-top-right-radius: 0; border-top-left-radius: 0;">
-                    <div style="font-size: 15px; font-weight: bold;">
-                        Workshop
-                    </div>
-                    <div style="margin-top: 15px;">
-                        <div style="color:#8B8F93;">08 Nov, 2020 | 08:30AM - 11:00AM</div>
-                        <div style="color: red;font-weight: bold;">Category</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <!-- Component event -->
-            <div class="event">
-                <div class="bg-event">
-                    <div class="category-tag">
-                        Machine Learning
-                    </div>
-                </div>
-                <div
-                    style="padding: 15px 15px; background-color: white; border-radius: 10px; border-top-right-radius: 0; border-top-left-radius: 0;">
-                    <div style="font-size: 15px; font-weight: bold;">
-                        Workshop
-                    </div>
-                    <div style="margin-top: 15px;">
-                        <div style="color:#8B8F93;">08 Nov, 2020 | 08:30AM - 11:00AM</div>
-                        <div style="color: red; font-weight: bold;">Category</div>
-                    </div>
-                </div>
-            </div>
-            <!-- ket thuc -->
-            <div class="event">
-                <div class="bg-event">
-                    <div class="category-tag" style="background-color: red;">
-                        Machine Learning
-                    </div>
-                </div>
-                <div
-                    style="padding: 15px 15px; background-color: white; border-radius: 10px; border-top-right-radius: 0; border-top-left-radius: 0;">
-                    <div style="font-size: 15px; font-weight: bold;">
-                        Workshop
-                    </div>
-                    <div style="margin-top: 15px;">
-                        <div style="color:#8B8F93;">08 Nov, 2020 | 08:30AM - 11:00AM</div>
-                        <div style="color: red;font-weight: bold;">Category</div>
-                    </div>
-                </div>
-            </div>
-            <div class="event">
-                <div class="bg-event">
-                    <div class="category-tag" style="background-color: green;">
-                        Machine Learning
-                    </div>
-                </div>
-                <div
-                    style="padding: 15px 15px; background-color: white; border-radius: 10px; border-top-right-radius: 0; border-top-left-radius: 0;">
-                    <div style="font-size: 15px; font-weight: bold;">
-                        Workshop
-                    </div>
-                    <div style="margin-top: 15px;">
-                        <div style="color:#8B8F93;">08 Nov, 2020 | 08:30AM - 11:00AM</div>
-                        <div style="color: red;font-weight: bold;">Category</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <!-- Component event -->
-            <div class="event">
-                <div class="bg-event">
-                    <div class="category-tag">
-                        Machine Learning
-                    </div>
-                </div>
-                <div
-                    style="padding: 15px 15px; background-color: white; border-radius: 10px; border-top-right-radius: 0; border-top-left-radius: 0;">
-                    <div style="font-size: 15px; font-weight: bold;">
-                        Workshop
-                    </div>
-                    <div style="margin-top: 15px;">
-                        <div style="color:#8B8F93;">08 Nov, 2020 | 08:30AM - 11:00AM</div>
-                        <div style="color: red; font-weight: bold;">Category</div>
-                    </div>
-                </div>
-            </div>
-            <!-- ket thuc -->
-            <div class="event">
-                <div class="bg-event">
-                    <div class="category-tag" style="background-color: red;">
-                        Machine Learning
-                    </div>
-                </div>
-                <div
-                    style="padding: 15px 15px; background-color: white; border-radius: 10px; border-top-right-radius: 0; border-top-left-radius: 0;">
-                    <div style="font-size: 15px; font-weight: bold;">
-                        Workshop
-                    </div>
-                    <div style="margin-top: 15px;">
-                        <div style="color:#8B8F93;">08 Nov, 2020 | 08:30AM - 11:00AM</div>
-                        <div style="color: red;font-weight: bold;">Category</div>
-                    </div>
-                </div>
-            </div>
-            <div class="event">
-                <div class="bg-event">
-                    <div class="category-tag" style="background-color: green;">
-                        Machine Learning
-                    </div>
-                </div>
-                <div
-                    style="padding: 15px 15px; background-color: white; border-radius: 10px; border-top-right-radius: 0; border-top-left-radius: 0;">
-                    <div style="font-size: 15px; font-weight: bold;">
-                        Workshop
-                    </div>
-                    <div style="margin-top: 15px;">
-                        <div style="color:#8B8F93;">08 Nov, 2020 | 08:30AM - 11:00AM</div>
-                        <div style="color: red;font-weight: bold;">Category</div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <button class="btn-load">Load more</button>
     </div>
     <!-- ket thuc events -->
 
